@@ -37,7 +37,7 @@ import java.util.*;
         {
             Scanner streamReader = new Scanner(new FileInputStream("WorldWealthList.txt"));
             String record;
-            int size = 2;
+            int size = 3;
             List<Person> data = new ArrayList<Person>();
             while (streamReader.hasNextLine() && size > 0)
             {
